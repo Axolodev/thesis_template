@@ -1,0 +1,15 @@
+
+\newglossarystyle{abbrdash}{%
+	\renewcommand*{\glossentry}[2]{%
+		\item[\glstarget{##1}{\glsentryshort{##1}}]\tabto{0.5cm}—\tabto{1.6cm}\glsentrylong{##1}%
+	}%
+}
+\setglossarystyle{abbrdash}
+
+% Example of how to include a simple acronym
+\newacronym{hci}{HCI}{Human-Computer Interaction}
+% Example of how to include a fully-detailed acronym
+\newacronym[\glslongpluralkey={Small and Medium-sized Enterprises},
+	\glsshortpluralkey={SMEs}]{sme}{SME}{Small and Medium-sized Enterprise}
+
+\glsnogroupskiptrue

@@ -1,0 +1,169 @@
+\documentclass[11pt, a4paper]{report}
+% Font: Arial, 11-point size
+
+\usepackage{graphicx, caption, float, tocloft, titlesec, adjustbox,
+  enumerate, helvet, tabto, tabularx, blindtext, setspace, titling,
+subcaption}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor,soul,lipsum}
+\usepackage[hidelinks]{hyperref}
+\usepackage[outputDir=out]{markdown}
+\newcommand{\anchor}[2]{\href{#1}{\color{blue}\setulcolor{blue}\ul{#2}}}
+
+\usepackage[
+  backend=biber,
+  % We want to use APA style for citations and references
+  style=apa,
+  % Sorting: Name of author, year, title.
+  sorting=nyt,
+  % Show all authors for works with up to 5 authors; 6+ use et al.
+  maxcitenames=5,
+  % When et al. is used, show only the first author
+  mincitenames=1,
+]{biblatex}
+
+\input{sources/references.tex}
+
+% APA 6th edition first/subsequent citation rule for author names:
+% - 2 authors: always both names
+% - 3-5 authors: first citation shows all; subsequent uses first author + et al.
+% - 6+ authors: always first author + et al.
+%
+% Strategy: maxcitenames=5 on first citation (shows ≤5 authors, truncates 6+)
+%           maxcitenames=2 on subsequent (shows ≤2 authors, truncates
+% 3+ to et al.)
+\makeatletter
+\AtEveryCitekey{%
+  \edef\blx@thiskey{\thefield{entrykey}}%
+  \ifcsundef{blx@apa@seen@\blx@thiskey}
+  {%  % First citation: mark as seen (only during rendering pass) and
+    % show up to 5 authors
+    \ifbool{citetracker}{\csgdef{blx@apa@seen@\blx@thiskey}{}}{}%
+    \setcounter{maxnames}{5}%
+  }%
+  {%  % Subsequent citation: truncate 3+ authors to et al.
+    \setcounter{maxnames}{2}%
+  }%
+}
+\makeatother
+
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+\newcommand{\addelementtoindex}[2]{
+  \phantomsection
+  \addcontentsline{toc}{#1}{#2}
+}
+
+\DeclareCaptionLabelFormat{custom}
+{%
+  #1 #2
+}
+% Separator style
+\DeclareCaptionLabelSeparator{custom}{--}
+% Caption format
+\DeclareCaptionFormat{custom}
+{%
+  \raggedright\textbf{#1#2 #3}
+}
+\captionsetup
+{
+  format=custom,
+  labelformat=custom,
+  labelsep=custom,
+}
+
+\newcommand{\addfigure}[4]{
+  \begingroup
+  \begin{figure}[!ht]
+    \caption{#1}
+    \vspace{1em }
+
+    \includegraphics[width=\textwidth]{#2}
+    \label{#4}
+
+    \def\baselinestretch{1.5}\selectfont
+    \noindent\small\textbf{#3}\par
+  \end{figure}
+  \endgroup
+}
+
+\newcommand{\citeneeded}{
+  \textcolor{red}{\sethlcolor{yellow}\hl{CITE NEEDED}}
+}
+
+\newcommand{\doHighlight}[1]{
+  \textcolor{blue}{\sethlcolor{yellow}\hl{#1}}
+}
+
+\newcommand{\addtable}[4]{
+  \begingroup
+  \begin{table}[!ht]
+    \caption{#1}
+    #2
+    \label{#4}
+  \end{table}
+  \vspace{-1em}
+  \noindent\small\textbf{#3}\par
+  \vspace{1em}
+  \endgroup
+}
+
+\usepackage[acronym, nopostdot, nonumberlist]{glossaries}
+\makeglossaries
+
+% Margins: Left 3.5 cm, Right 2.5 cm, Top 2.5 cm, Bottom 2.5 cm
+\usepackage[left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[yyyymmdd]{datetime}
+% Includes all the metadata (title, author, date)
+\input{sources/metadata}
+\input{sources/acronyms}
+\input{content/styles}
+
+\begin{document}
+\input{content/cover.tex}
+\clearpage
+
+\pagenumbering{Roman}
+
+\input{content/acknowledgements.tex}
+\clearpage
+
+\input{content/executive_summary.tex}
+\clearpage
+
+\input{content/tables_of_content.tex}
+\clearpage
+
+% Chapter formatting: inline number with title
+\titleformat{\chapter}[hang]
+{\normalfont\fontsize{14}{21}\selectfont\bfseries}
+{\thechapter.}{1.8cm}{}
+\titlespacing*{\chapter}{0pt}{0pt}{1em}
+
+\titleformat{\section}[hang]
+{\normalfont\fontsize{12}{18}\selectfont\bfseries}
+{\thesection.}{1.8cm}{}
+\titlespacing*{\section}{0pt}{0pt}{1em}
+
+\titleformat{\subsection}[hang]
+{\normalfont\fontsize{11}{16.5}\selectfont\bfseries}
+{\thesubsection.}{1.8cm}{}
+\titlespacing*{\subsection}{0pt}{0pt}{1em}
+
+% \input{content/dump.tex}
+\pagenumbering{arabic}
+
+\input{content/body.tex}
+
+\clearpage
+\addelementtoindex{chapter}{References}
+\printbibliography[title={\fontsize{14}{21}\selectfont\textbf{References}}]
+
+\clearpage
+\input{content/appendix.tex}
+
+\clearpage
+\input{content/statutory_declaration.tex}
+
+\end{document}

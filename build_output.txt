@@ -1,0 +1,853 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tocloft/tocloft.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/tc-pdftex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/enumerate.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/helvet.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tabto-ltx/tabto.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/blindtext/blindtext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/xspace.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/titling/titling.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/caption/subcaption.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul-ori.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e
+.sty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/markdown/markdown.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/markdown/markdown.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/lt3luabridge/lt3luabridge.
+tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/markdown/markdownthemewitiko
+_markdown_defaults.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/markdown/markdownthemewiti
+ko_markdown_defaults.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/paralist/paralist.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csvsimple/csvsimple.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csvsimple/csvsimple-legacy.s
+ty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
+x.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
+tex (/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/pgf.revision.tex))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibra
+ryfiltered.code.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/shellesc.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-apa/apa.dbx)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-apa/apa.cbx)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (./sources/references.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/glossaries/base/glossaries.s
+ty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xfor/xfor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/datatool/datatool-base.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tracklang/tracklang.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/datatool/datatool-l3fp.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/datatool/datatool-utf8.ldf))
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/glossaries/styles/glossary-h
+ypernav.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/glossaries/styles/glossary-l
+ist.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/glossaries/styles/glossary-l
+ong.sty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/glossaries/styles/glossary-t
+ree.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/datetime/datetime.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fmtcount/fcnumparser.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/datetime/datetime-defaults.s
+ty)) (./sources/metadata.tex) (./sources/acronyms.tex) (./content/styles.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ot1phv.fd)
+No file main.aux.
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
+ty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/caption/ltcaption.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-apa/american-apa.lb
+x (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx))))
+No file main.bbl.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fmtcount/fc-english.def)
+(./content/cover.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+)
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc} <./assets/u
+ni_siegen_logo.png> <./assets/faculty_logo.jpg>]
+(./content/acknowledgements.tex)
+[1] (./content/executive_summary.tex)
+[2]
+[3] (./content/tables_of_content.tex
+No file main.toc.
+
+[4]
+No file main.lot.
+
+[5]
+No file main.lof.
+
+[6]
+No file main.acr.
+
+[7]) (./content/body.tex
+Chapter 1.
+(./content/chapters/introduction.tex
+
+LaTeX Warning: Citation 'EuroFoundDigitalizationMeaning' on page 1 undefined on
+ input line 13.
+
+
+LaTeX Warning: Citation 'EuroFoundDigitalizationMeaning' on page 1 undefined on
+ input line 14.
+
+
+LaTeX Warning: Citation 'digitalization-europe-goals' on page 1 undefined on in
+put line 16.
+
+
+LaTeX Warning: Citation 'UN2015Agenda' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'digitalization-roleInEnvironmentAndSustainability' on 
+page 1 undefined on input line 20.
+
+
+Overfull \hbox (74.90309pt too wide) in paragraph at lines 5--21
+\OT1/phv/m/n/10.95 ment of dig-i-tal skills, such as dig-i-tal lit-er-acy, amon
+g the gen-eral pop-u-la-tion ([]).
+
+Overfull \hbox (90.3384pt too wide) in paragraph at lines 5--21
+\OT1/phv/m/n/10.95 goals of sus-tain-able de-vel-op-ment ([]; []). 
+
+LaTeX Warning: Citation 'digitalization-europe-goals' on page 1 undefined on in
+put line 26.
+
+
+LaTeX Warning: Citation 'digitalization-germany-goal-alignment' on page 1 undef
+ined on input line 26.
+
+
+LaTeX Warning: Citation 'digitalization-dii-definition' on page 1 undefined on 
+input line 31.
+
+
+Overfull \hbox (160.34055pt too wide) in paragraph at lines 22--36
+\OT1/phv/m/n/10.95 lize AI, big data ap-pli-ca-tions or cloud-based tools ([]; 
+[]).
+
+LaTeX Warning: Citation 'digitalization-germany-2025-status' on page 1 undefine
+d on input line 42.
+
+
+LaTeX Warning: Citation 'report2024ImportanceOfHandworkers' on page 1 undefined
+ on input line 49.
+
+
+[1]
+
+LaTeX Warning: Citation 'destatis2025handwerk_kmu' on page 2 undefined on input
+ line 57.
+
+
+LaTeX Warning: Citation 'barriers_kocak2022digitalization' on page 2 undefined 
+on input line 60.
+
+
+LaTeX Warning: Citation 'digital_literacy2023Malodia' on page 2 undefined on in
+put line 83.
+
+
+LaTeX Warning: Citation 'digital_literacy2023Malodia' on page 2 undefined on in
+put line 85.
+
+
+[2])
+Chapter 2.
+(./content/chapters/literature_review.tex
+
+LaTeX Warning: Citation '2016DigitalizationVsDigitization' on page 3 undefined 
+on input line 23.
+
+
+LaTeX Warning: Citation 'DigitalizationOrDigitizationFramework' on page 3 undef
+ined on input line 25.
+
+
+LaTeX Warning: Citation '2016DigitalizationVsDigitization' on page 3 undefined 
+on input line 29.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/omlphv.fd)
+
+LaTeX Warning: Citation '' on page 3 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'digitalization-europe-goals' on page 3 undefined on in
+put line 34.
+
+
+LaTeX Warning: Citation 'EuroFoundDigitalizationMeaning' on page 3 undefined on
+ input line 38.
+
+
+Overfull \hbox (46.27576pt too wide) in paragraph at lines 19--40
+\OT1/phv/m/n/10.95 works to dis-tin-guish be-tween both terms have emerged ([])
+.
+
+Overfull \hbox (73.9338pt too wide) in paragraph at lines 19--40
+\OT1/phv/b/n/10.95 Dig-i-ti-za-tion \OT1/phv/m/n/10.95 will be used fol-low-ing
+ the def-i-ni-tion of [][]:
+
+[3]
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-uberbacher2020' on page
+ 4 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-nitsch-etal' on page 4 
+undefined on input line 49.
+
+
+LaTeX Warning: Citation 'digitalization-handwerk-generalBenefits-2020' on page 
+4 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'elkington1999cannibals' on page 4 undefined on input l
+ine 50.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'raihan2024review' on page 4 undefined on input line 51
+.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 51.
+
+
+Overfull \hbox (32.0518pt too wide) in paragraph at lines 45--56
+[]\OT1/phv/m/n/10.95 ; []).
+
+Overfull \hbox (81.16037pt too wide) in paragraph at lines 45--56
+\OT1/phv/m/n/10.95 Fol-low-ing the [][]Triple Bot-tom Line (TBL)[] struc-ture p
+ro-posed by [][]
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-uberbacher2020' on page
+ 4 undefined on input line 61.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-italy-knitwear' on page
+ 4 undefined on input line 62.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-nitsch-etal' on page 4 
+undefined on input line 64.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-nitsch-etal' on page 4 
+undefined on input line 69.
+
+
+LaTeX Warning: Citation '2020HandwerkDigitalisation' on page 4 undefined on inp
+ut line 70.
+
+
+LaTeX Warning: Citation '2020HandwerkDigitalisation' on page 4 undefined on inp
+ut line 73.
+
+
+LaTeX Warning: Citation 'digitalization-handwerk-generalBenefits-2020' on page 
+4 undefined on input line 77.
+
+
+LaTeX Warning: Citation 'digitalization-handwerk-generalBenefits-2016' on page 
+4 undefined on input line 77.
+
+
+LaTeX Warning: Citation 'digitalization-financialBenefits-kadarova' on page 4 u
+ndefined on input line 80.
+
+
+Overfull \hbox (186.49936pt too wide) in paragraph at lines 57--84
+\OT1/phv/m/n/10.95 ([]). Sim-i-lar find-ings were re-ported by [],
+
+Overfull \hbox (78.48999pt too wide) in paragraph at lines 57--84
+\OT1/phv/m/n/10.95 ([]). This is fur-ther re-in-forced by [],
+
+Overfull \hbox (32.87766pt too wide) in paragraph at lines 57--84
+\OT1/phv/m/n/10.95 flex-i-bil-ity, time sav-ings, and op-ti-miza-tion of lo-gis
+-tics and stor-age ([]).
+
+Overfull \hbox (176.28648pt too wide) in paragraph at lines 57--84
+\OT1/phv/m/n/10.95 and growth in cus-tomer base, which is also con-nected to in
+-creased rev-enue ([];
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-uberbacher2020' on page
+ 4 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'digitalization-financialBenefits-kadarova' on page 4 u
+ndefined on input line 90.
+
+
+LaTeX Warning: Citation 'digitalization-benefits-cooperation-teamwork' on page 
+4 undefined on input line 93.
+
+
+LaTeX Warning: Citation 'digitalization-support-employees-continue-work' on pag
+e 4 undefined on input line 99.
+
+
+LaTeX Warning: Citation 'digitalization-technostress-reduction--clearer-comunic
+ation' on page 4 undefined on input line 103.
+
+
+Overfull \hbox (114.60324pt too wide) in paragraph at lines 85--107
+\OT1/phv/m/n/10.95 com-mu-ni-ca-tion ([]; []).
+
+Overfull \hbox (128.09772pt too wide) in paragraph at lines 85--107
+\OT1/phv/m/n/10.95 per-sonal abil-i-ties such as lead-er-ship, team-work, and c
+o-op-er-a-tion ([]).
+
+Overfull \hbox (16.04346pt too wide) in paragraph at lines 85--107
+\OT1/phv/m/n/10.95 ages or while hav-ing health lim-i-ta-tions ([]).
+
+[4]
+
+LaTeX Warning: Citation 'digitalization-sustainabilityTransition' on page 5 und
+efined on input line 111.
+
+
+LaTeX Warning: Citation 'digitalization-sustainabilityTransition' on page 5 und
+efined on input line 113.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-italy-knitwear' on page
+ 5 undefined on input line 116.
+
+
+LaTeX Warning: Citation 'digitalization-sustainabilityTransition' on page 5 und
+efined on input line 121.
+
+
+LaTeX Warning: Citation 'digitalization-energyEfficiency' on page 5 undefined o
+n input line 121.
+
+
+LaTeX Warning: Citation 'digitalization-sustainabilityTransition' on page 5 und
+efined on input line 127.
+
+
+LaTeX Warning: Citation 'digitalization-sustainabilityPerformanceSMEs' on page 
+5 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'digitalization-businessSustainabilityEvaluationFramewo
+rk' on page 5 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'digitalization-energyEfficiency' on page 5 undefined o
+n input line 127.
+
+
+Overfull \hbox (1.95068pt too wide) in paragraph at lines 108--128
+\OT1/phv/m/n/10.95 ciency ([]; []). How-
+
+Overfull \hbox (65.26259pt too wide) in paragraph at lines 108--128
+\OT1/phv/m/n/10.95 mea-sures ([]; [];
+
+Overfull \hbox (45.64066pt too wide) in paragraph at lines 108--128
+[]\OT1/phv/m/n/10.95 ; []). 
+
+[5]
+
+LaTeX Warning: Citation 'digitalization-technostress-reduction--training-and-su
+pport' on page 6 undefined on input line 144.
+
+
+LaTeX Warning: Citation 'digitalization-technostress-reduction--training-and-su
+pport' on page 6 undefined on input line 153.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-nitsch-etal' on page 6 
+undefined on input line 153.
+
+
+Overfull \hbox (212.88017pt too wide) in paragraph at lines 138--154
+\OT1/phv/m/n/10.95 col-leagues, or an up-surge of er-rors in their work due to 
+in-ter-rup-tions ([]).
+
+Overfull \hbox (106.4015pt too wide) in paragraph at lines 138--154
+\OT1/phv/m/n/10.95 ([]; []). 
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-nitsch-etal' on page 6 
+undefined on input line 162.
+
+
+LaTeX Warning: Citation 'digitalization-stress-reduction-benefit' on page 6 und
+efined on input line 165.
+
+
+LaTeX Warning: Citation 'digitalization-technostress-reduction--training-and-su
+pport' on page 6 undefined on input line 172.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-nitsch-etal' on page 6 
+undefined on input line 172.
+
+
+LaTeX Warning: Citation 'digitalization-technostress-reduction--clearer-comunic
+ation' on page 6 undefined on input line 172.
+
+
+Overfull \hbox (102.7552pt too wide) in paragraph at lines 155--173
+\OT1/phv/m/n/10.95 ([]; [];
+
+LaTeX Warning: Citation 'digitalization-roleInEnvironmentAndSustainability' on 
+page 6 undefined on input line 176.
+
+
+LaTeX Warning: Citation 'digitalization-climate-impact-without-policies' on pag
+e 6 undefined on input line 180.
+
+
+LaTeX Warning: Citation 'digitalization-environmental-negative-side' on page 6 
+undefined on input line 183.
+
+
+LaTeX Warning: Citation 'digitalization-climate-impact-without-policies' on pag
+e 6 undefined on input line 187.
+
+
+LaTeX Warning: Citation 'digitalization-generalBenefits-nitsch-etal' on page 6 
+undefined on input line 187.
+
+
+LaTeX Warning: Citation 'digitalization-environmental-negative-side' on page 6 
+undefined on input line 189.
+
+
+Overfull \hbox (155.7529pt too wide) in paragraph at lines 174--190
+\OT1/phv/m/n/10.95 tial to help achieve all 17 [][]Sus-tain-able De-vel-op-ment
+ Goals (SDGs)[] ([]),
+
+Overfull \hbox (34.29613pt too wide) in paragraph at lines 174--190
+\OT1/phv/m/n/10.95 ([]; []).
+
+[6]
+
+LaTeX Warning: Citation 'GermanyDigitalisationReportFor2023' on page 7 undefine
+d on input line 197.
+
+
+LaTeX Warning: Citation '2025GermanyDigitalisationReport' on page 7 undefined o
+n input line 197.
+
+
+LaTeX Warning: Citation 'GermanyDigitalisationReportFor2026' on page 7 undefine
+d on input line 199.
+
+
+Overfull \hbox (7.34883pt too wide) in paragraph at lines 193--212
+\OT1/phv/m/n/10.95 ous years ([]; []),
+
+LaTeX Warning: Citation '2025HandwerkDigitalisation' on page 7 undefined on inp
+ut line 217.
+
+
+LaTeX Warning: Citation 'barriers_kocak2022digitalization' on page 7 undefined 
+on input line 230.
+
+
+LaTeX Warning: Citation 'barriers_kocak2022digitalization' on page 7 undefined 
+on input line 233.
+
+
+LaTeX Warning: Citation '2025HandwerkDigitalisation' on page 7 undefined on inp
+ut line 238.
+
+
+LaTeX Warning: Citation 'barriers_vogelsang2019barriers' on page 7 undefined on
+ input line 241.
+
+
+[7]
+
+LaTeX Warning: Citation 'barriers_bischoff2023beauty' on page 8 undefined on in
+put line 246.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 246.
+
+
+LaTeX Warning: Citation 'barriers_neuroticism' on page 8 undefined on input lin
+e 255.
+
+
+Overfull \hbox (122.64503pt too wide) in paragraph at lines 245--258
+[]\OT1/phv/m/n/10.95 The dig-i-tal-iza-tion is-sue in this sec-tor was fur-ther
+ dis-sected by [][]
+
+LaTeX Warning: Citation 'barriers_kocak2022digitalization' on page 8 undefined 
+on input line 259.
+
+
+LaTeX Warning: Citation 'barriers_kocak2022digitalization' on page 8 undefined 
+on input line 261.
+
+
+Overfull \hbox (70.82515pt too wide) in paragraph at lines 259--269
+\OT1/phv/m/n/10.95 over-come through the im-ple-men-ta-tion of more train-ing i
+n the sec-tor ([]).
+
+[8]
+
+LaTeX Warning: Citation 'dolasinski2020microlearning' on page 9 undefined on in
+put line 286.
+
+
+LaTeX Warning: Citation 'thalheimer_2017_microlearning' on page 9 undefined on 
+input line 288.
+
+
+LaTeX Warning: Citation 'kapp2019microlearning' on page 9 undefined on input li
+ne 290.
+
+
+LaTeX Warning: Citation 'torgerson2019designing' on page 9 undefined on input l
+ine 294.
+
+
+LaTeX Warning: Citation 'thalheimer_2017_microlearning' on page 9 undefined on 
+input line 295.
+
+
+LaTeX Warning: Citation 'kapp2019microlearning' on page 9 undefined on input li
+ne 297.
+
+
+Overfull \hbox (87.62854pt too wide) in paragraph at lines 281--301
+\OT1/phv/m/n/10.95 tion, task as-sign-ment, coach-ing, or other learning-relate
+d method-olo-gies ([])
+
+LaTeX Warning: Citation 'de2019microlearning' on page 9 undefined on input line
+ 306.
+
+
+LaTeX Warning: Citation 'ester2023micro' on page 9 undefined on input line 310.
+
+
+
+LaTeX Warning: Citation 'fidan2023microlearning_flippedClassroom' on page 9 und
+efined on input line 313.
+
+
+LaTeX Warning: Citation 'mohammed2018effectiveness' on page 9 undefined on inpu
+t line 316.
+
+
+Overfull \hbox (92.7406pt too wide) in paragraph at lines 302--323
+\OT1/phv/m/n/10.95 mance, mo-ti-va-tion, and en-gage-ment in ed-u-ca-tional ac-
+tiv-i-ties ([]).
+
+[9]
+
+LaTeX Warning: Citation '2017moore_educationalTrends' on page 10 undefined on i
+nput line 330.
+
+
+LaTeX Warning: Citation 'emerson2018microlearning' on page 10 undefined on inpu
+t line 330.
+
+
+LaTeX Warning: Citation 'hesse2019microlearning' on page 10 undefined on input 
+line 334.
+
+
+LaTeX Warning: Citation 'goschlberger2017gamification_microlearning' on page 10
+ undefined on input line 338.
+
+
+Overfull \hbox (71.13208pt too wide) in paragraph at lines 324--347
+\OT1/phv/m/n/10.95 give them means to learn even dur-ing leisure pe-ri-ods ([])
+.
+
+LaTeX Warning: Citation 'mostrady2025microlearning' on page 10 undefined on inp
+ut line 351.
+
+
+LaTeX Warning: Citation 'buchem2010microlearning' on page 10 undefined on input
+ line 353.
+
+
+LaTeX Warning: Citation 'bitakou2023assessing' on page 10 undefined on input li
+ne 357.
+
+
+LaTeX Warning: Citation 'mostrady2025microlearning' on page 10 undefined on inp
+ut line 360.
+
+
+LaTeX Warning: Citation 'mostrady2025microlearning' on page 10 undefined on inp
+ut line 364.
+
+
+[10]
+
+LaTeX Warning: Citation 'dolasinski2020microlearning' on page 11 undefined on i
+nput line 373.
+
+
+LaTeX Warning: Citation 'Hesse2019microlearning-confidence' on page 11 undefine
+d on input line 376.
+
+
+LaTeX Warning: Citation 'barriers_kocak2022digitalization' on page 11 undefined
+ on input line 381.
+
+
+LaTeX Warning: Citation 'bitakou2023assessing' on page 11 undefined on input li
+ne 388.
+
+
+Overfull \hbox (108.00041pt too wide) in paragraph at lines 369--392
+\OT1/phv/m/n/10.95 in new skills and mo-ti-vat-ing them through highly en-gag-i
+ng in-ter-ac-tions ([]).
+
+LaTeX Warning: Citation 'kahveci2025digital' on page 11 undefined on input line
+ 398.
+
+
+LaTeX Warning: Citation 'digital_literacy2023Malodia' on page 11 undefined on i
+nput line 403.
+
+
+LaTeX Warning: Citation 'zhan2025linkingDigitalLiteracy' on page 11 undefined o
+n input line 406.
+
+
+LaTeX Warning: Citation 'zhan2025linkingDigitalLiteracy' on page 11 undefined o
+n input line 408.
+
+
+LaTeX Warning: Citation 'sakti2025influence' on page 11 undefined on input line
+ 412.
+
+
+Overfull \hbox (24.23329pt too wide) in paragraph at lines 395--413
+\OT1/phv/m/n/10.95 rect pos-i-tive im-pact in pro-mot-ing the dig-i-tal-iza-tio
+n of a busi-ness ([]).
+
+Overfull \hbox (45.90614pt too wide) in paragraph at lines 395--413
+\OT1/phv/m/n/10.95 of work-places, such as in the case of pub-lic sec-tors as s
+tud-ied by [],
+
+[11]
+
+LaTeX Warning: Citation 'zhan2025linkingDigitalLiteracy' on page 12 undefined o
+n input line 416.
+
+
+LaTeX Warning: Citation 'zhan2025linkingDigitalLiteracy' on page 12 undefined o
+n input line 419.
+
+
+LaTeX Warning: Citation 'asa2025digitalLiteracy' on page 12 undefined on input 
+line 422.
+
+
+LaTeX Warning: Citation 'xu2025does' on page 12 undefined on input line 425.
+
+
+LaTeX Warning: Citation 'xu2025does' on page 12 undefined on input line 429.
+
+
+LaTeX Warning: Citation 'digitalization-technostress-reduction--training-and-su
+pport' on page 12 undefined on input line 430.
+
+)
+Overfull \hbox (29.59972pt too wide) in paragraph at lines 414--13
+\OT1/phv/m/n/10.95 lit-er-acy in em-ploy-ees lev-els by ex-pos-ing them to reg-
+u-lar use ([]).
+Chapter 3.
+(./content/chapters/methodology.tex
+
+LaTeX Warning: Citation 'peffers2007design' on page 12 undefined on input line 
+7.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'guracho2025design' on page 12 undefined on input line 
+7.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'manavi2025making' on page 12 undefined on input line 8
+.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 8.
+
+
+Overfull \hbox (162.22238pt too wide) in paragraph at lines 6--9
+[][] \OT1/phv/m/n/10.95 and a De-sign Case Study as fol-lowed by [][]. 
+
+LaTeX Warning: Citation 'dsr-three-modes' on page 12 undefined on input line 10
+.
+
+
+[12]
+
+LaTeX Warning: Citation 'mobile-device-proficiency' on page 13 undefined on inp
+ut line 19.
+
+
+LaTeX Warning: Citation 'mostrady2025microlearning' on page 13 undefined on inp
+ut line 27.
+
+
+LaTeX Warning: Citation 'milligan2005digging' on page 13 undefined on input lin
+e 29.
+
+
+LaTeX Warning: Citation 'milligan2005digging' on page 13 undefined on input lin
+e 32.
+
+)
+Chapter 4.
+(./content/chapters/design.tex
+
+./content/chapters/design.tex:17: Package markdown Error: Shell escape is restr
+icted
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.17 \end{markdown}
+                   
+./content/chapters/design.tex:17: I can't find file `"|texlua out/main.luabridg
+e.lua"'.
+<to be read again> 
+                   \scan_stop: 
+l.17 \end{markdown}
+                   
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name
+./content/chapters/design.tex:17: Emergency stop.
+<to be read again> 
+                   \scan_stop: 
+l.17 \end{markdown}
+                   
+./content/chapters/design.tex:17:  ==> Fatal error occurred, no output PDF file
+ produced!
+Transcript written on main.log.

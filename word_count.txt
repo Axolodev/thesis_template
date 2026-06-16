@@ -1,0 +1,35 @@
+Word Count Report — 2026-06-11 14:31
+============================================
+2+0+0 (0/0/0/0) File: content/chapters/conclusion.tex
+99+1+0 (1/0/0/0) File: content/chapters/design.tex
+186+1+0 (1/0/0/0) File: content/chapters/discussion.tex
+2+0+0 (0/0/0/0) File: content/chapters/findings.tex
+101+2+0 (1/0/0/0) File: content/chapters/future_work.tex
+978+8+0 (3/0/0/0) File: content/chapters/introduction.tex
+89+1+0 (1/0/0/0) File: content/chapters/limitations.tex
+3364+29+0 (7/0/0/0) File: content/chapters/literature_review.tex
+435+46+0 (17/0/0/0) File: content/chapters/methodology.tex
+5256+88+0 (31/0/0/0) Total
+
+--- TOTAL ---
+Total
+Words in text: 5256
+Words in headers: 88
+Words outside text (captions, etc.): 0
+Number of headers: 31
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+Files: 9
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  2+0+0 (0/0/0/0) File(s) total: content/chapters/conclusion.tex
+  99+1+0 (1/0/0/0) File(s) total: content/chapters/design.tex
+  186+1+0 (1/0/0/0) File(s) total: content/chapters/discussion.tex
+  2+0+0 (0/0/0/0) File(s) total: content/chapters/findings.tex
+  101+2+0 (1/0/0/0) File(s) total: content/chapters/future_work.tex
+  978+8+0 (3/0/0/0) File(s) total: content/chapters/introduction.tex
+  89+1+0 (1/0/0/0) File(s) total: content/chapters/limitations.tex
+  3364+29+0 (7/0/0/0) File(s) total: content/chapters/literature_review.tex
+  435+46+0 (17/0/0/0) File(s) total: content/chapters/methodology.tex
+

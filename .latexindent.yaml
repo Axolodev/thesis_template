@@ -1,0 +1,11 @@
+modifyLineBreaks:
+  textWrapOptions:
+    columns: 80            # target line length; 0 = disabled (default)
+    removeBlockLineBreaks: 1  # join lines within a paragraph before re-wrapping
+    multipleSpacesToSingle: 1
+    # Do not wrap inside math/code blocks (handled by blocksEndBefore default)
+    blocksEndBefore:
+      commentOnOwnLine: 1
+      verbatim: 1
+      filecontents: 1
+      other: \\begin\{|\\\[|\\end\{

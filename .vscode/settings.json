@@ -1,0 +1,73 @@
+{
+  "workbench.colorTheme": "GitHub Dark",
+  "[latex]": {
+    "editor.formatOnSave": false
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.tex$",
+        "cmd": "latexindent -w -s -m -l .latexindent.yaml ${file}"
+      }
+    ]
+  },
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex, biber, makeglossaries, pdflatex (2x), rmbakfiles",
+      // "tools": ["clean", "pdflatex", "biber", "makeglossaries", "pdflatex", "pdflatex", "rmbakfiles"]
+      "tools": [
+        "pdflatex",
+        "biber",
+        "makeglossaries",
+        "pdflatex",
+        "pdflatex",
+        "rmbakfiles"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "clean",
+      "command": "sh",
+      "args": ["-c", "rm -rf %DIR%/out && mkdir -p %DIR%/out"]
+    },
+    {
+      "name": "rmbakfiles",
+      "command": "sh",
+      "args": ["-c", "find %DIR% -name '*.bak*' -delete"]
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-shell-escape",
+        "-output-directory=%DIR%/out",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "biber",
+      "command": "biber",
+      "args": [
+        "--input-directory=%DIR%/out",
+        "--output-directory=%DIR%/out",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "makeglossaries",
+      "command": "makeglossaries",
+      "args": ["-d%DIR%/out", "%DOCFILE%"]
+    }
+  ],
+  "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|%|\\\\)\\s*($TAGS)\\{*|^\\s*- \\[ \\])",
+  "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestionsDelay": 2000,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredHighContrastLightColorTheme": "Solarized Light",
+  "workbench.preferredLightColorTheme": "Default Light+"
+}

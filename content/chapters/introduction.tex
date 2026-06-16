@@ -1,0 +1,44 @@
+Introduction goes here
+
+% TODO: Introduction should describe the current solutions for the problem, and
+% why there's a gap between the needs and solutions that needs to be covered.
+
+This is an example of how to cite a reference
+\parencite{digitalization-europe-goals}. You also have the option of citing the
+author \citeauthor{digitalization-europe-goals}, or the year
+\citeyear{digitalization-europe-goals}. Or both if you use textcite
+\textcite{digitalization-europe-goals}. References are stored in references.bib
+
+You also have the option to use acronyms, which are stored in acronyms.tex. You
+can use the short version \acrshort{hci} or the longer one \acrlong{hci} or
+full version \acrfull{hci}. You even have the option to configure plurals,
+depending on whether they are different from singulars: singular short
+\acrshort{sme}, plural short \acrshortpl{sme}, singular long \acrlong{sme},
+singular full \acrfull{sme}, plural full \acrfullpl{sme}. These are all
+clickable, just like the references, and will take you to the full details in
+the glossary if you click on them.
+
+You can also add images, by the way. To follow all the standards from the uni,
+I created a custom command called addfigure. You can also reference them if
+needed by using the command ref: Figure \ref{fig:sample_figure}.
+
+\addfigure{Example title on how to add a figure}{assets/Picture1.jpg}{caption for the
+	image}{fig:sample_figure}
+
+Of course, you also have the option to add tables. In Table
+\ref{tbl:table_example} you can find an example of how to create one.
+
+\newpage
+
+\addtable{This is an example on how to create a table}{%
+	\begin{tabular}{|l|l|}
+		\hline
+		One   & Two  \\
+		\hline
+		Three & Four \\
+		\hline
+	\end{tabular}
+}{Caption for the table}{tbl:table_example}
+
+Both tables and figures will be added to the corresponding directories, which
+can be found after the index.
