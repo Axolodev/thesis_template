@@ -54,3 +54,4 @@ build/
 *.md.tex
 *.in
 *.lua
+out/_markdown_main/**
